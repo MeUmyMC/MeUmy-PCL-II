@@ -1,0 +1,219 @@
+﻿
+<!-- 这是 PCL2 的主页自定义文件。你可以通过修改这个文件来自定义 PCL2 主页：添加文本、打开网页、启动游戏，等等。
+     如果你倒腾这个文件把 PCL2 玩炸了，把这个文件直接删除就行了。
+     如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
+
+<local:MyCard Margin="130,0,0,0" Title="MeUmy - 呜米" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="20,40,20,25">
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="MeUmy大草原 ！ "/>
+
+        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="光能雪狼 - 呜米 : "/>
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="     "/>
+
+        <Image Height="130" Width="230" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/face/c234aef24feb06c960e190fa7ebf792adbbb163d.jpg@240w_240h_1c_1s.webp" />
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="     "/>
+
+        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                Text="呜米主页" EventType="打开网页" EventData="https://space.bilibili.com/617459493/?spm_id_from=333.999.0.0" ToolTip="点击打开 呜米主页" /> 
+
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                Text="呜米喵~想要成为大家的~爱抖露~努力进步，在舞台上kriakria~" />
+
+    </StackPanel>
+</local:MyCard>
+
+<TextBlock Margin="0,0,0,-2" 
+           Text="   "/>
+
+<local:MyCard Margin="130,0,0,0" Title="MeUmy - 咩栗" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="20,40,20,25">
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="Meumy大草原 ！ "/>
+
+        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="电机系小羊 - 咩栗 : "/>
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="     "/>
+
+        <Image Height="130" Width="230" HorizontalAlignment="Center" Source="https://i2.hdslb.com/bfs/face/1b74803484cfc056d0aa50b1a52440af7804f225.jpg@240w_240h_1c_1s.webp" /> 
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="     "/>
+
+        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="咩栗主页" EventType="打开网页" EventData="https://space.bilibili.com/745493/?spm_id_from=333.999.0.0" ToolTip="点击打开 咩栗主页" /> 
+
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                Text="我被踢出群啦！！！" />
+
+    </StackPanel>
+</local:MyCard>
+
+<TextBlock Margin="0,0,0,-2" 
+           Text="   "/>
+
+<local:MyCard Margin="130,0,0,0" Title="MeUmy草原平行时空" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="20,40,20,25">
+
+        <Image Height="45" Width="220" HorizontalAlignment="Left" Source="https://meumy.club/img/head_title.46f64522.png" /> 
+
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="MeUmy草原平行时空" EventType="打开网页" EventData="https://meumy.club" ToolTip="点击打开 MeUmy草原平行时空" />
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="MeUmy草原自动路灯" EventType="打开网页" EventData="https://lamp.meumy.club" ToolTip="点击打开 MeUmy草原自动路灯" />
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="MeUmy的录音棚" EventType="打开网页" EventData="https://song.meumy.club/" ToolTip="点击打开 MeUmy的录音棚" />
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="MeUmy的棉花糖" EventType="打开网页" EventData="https://mht.meumy.club/" ToolTip="点击打开 MeUmy的棉花糖" />
+
+    </StackPanel>
+</local:MyCard>
+
+<TextBlock Margin="0,0,0,-2" 
+           Text="   "/>
+
+<local:MyCard Margin="130,0,0,0" Title="MeUmy MC" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="20,40,20,25">
+        <TextBlock Margin="0,0,0,-2" TextWrapping="0"
+                   Text="一个MeUmy主题的Minecraft服务器  服务器目前已开放，如有意见欢迎提出 "/>
+
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                   Text="QQ群：562456559" />
+
+        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="MeUmy MC官网 : "/>
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="MeUmy MC" EventType="打开网页" EventData="https://meumymc.online" ToolTip="点击打开 MeUmy MC官网" />
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="MeUmy MC服务器IP : "/>
+
+        <TextBlock Margin="0,0,0,-2" 
+                   Text="    "/>
+
+        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="生存服IP" EventType="复制文本" EventData="play.meumymc.live" ToolTip="点击复制生存服IP" />
+
+    </StackPanel>
+</local:MyCard>
+
+<TextBlock Margin="0,0,0,-2" 
+            Text="   "/>
+
+<local:MyCard Margin="130,0,0,0" Title="设定" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="20,40,20,25">
+        <TextBlock Margin="0,0,0,-2" TextWrapping="0"
+                   Text="欢迎使用 MeUmy MC 定制主题  : ) "/>
+
+        <TextBlock Margin="0,0,0,-2" TextWrapping="0"
+                   Text=" "/>                   
+
+        <TextBlock Margin="0,0,0,-2" TextWrapping="0"
+                   Text="主题由：bilibili@长歌天幽_Count 制作"/>
+
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                   Text="版本号：1.2 - Gold" />
+
+        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="刷新主页" EventType="刷新主页" ToolTip="点击刷新主页（虽然没啥用）"/>
+
+            <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight" HorizontalAlignment="Center" Padding="13,0,13,0"
+                   Text="作者信息" EventType="弹出窗口" EventData="这是标题|启动器主题BY：bilibili@长歌天幽。\n \n了解详细信息请到QQ群：562456559\n（用了四个小时就搓出来的主题）" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                   Text="启动器日志" EventType="打开文件" EventData="Log1.txt" ToolTip="点击打开 启动器日志"/>
+
+            <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                   Text="自定义主页" EventType="打开文件" EventData="explorer.exe|/select,Custom.xaml" ToolTip="定位自定义主页文件Custom.xaml位置" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                   Text="背景音乐" EventType="打开文件" EventData="explorer.exe|/select,Musics" ToolTip="定位存放背景音乐的文件夹Musics位置" />
+
+            <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                   Text="背景图片" EventType="打开文件" EventData="explorer.exe|/select,Pictures" ToolTip="定位存放背景图片的文件夹Pictures位置" />
+        </StackPanel>
+
+    </StackPanel>
+</local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ 
+Image（图片）：
+ - Source：要显示的图片的网址
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ 
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ 
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ 
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+
+-->
