@@ -86,7 +86,7 @@
 		🎉 服务器企划发起人：LBY123165
 	</TextBlock>
     <TextBlock x:Name="Text4" Style="{StaticResource Text}" Foreground="#00000000">
-		🆕 当前版本：v1.4 - Beta
+		🆕 当前版本：v2.0 - Final
 	</TextBlock>
 	<Border Background="{DynamicResource ColorBrush6}" BorderBrush="{DynamicResource ColorBrush5}"
 		BorderThickness="2" HorizontalAlignment="Right" CornerRadius="3" Margin="5,5" Width="65" Height="25"/>
