@@ -41,7 +41,7 @@
         <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
 
         <TextBlock Margin="0,0,0,-2" 
-                   Text="电机系小羊 - 咩栗 : "/>
+                   Text="电击系小羊 - 咩栗 : "/>
 
         <TextBlock Margin="0,0,0,-2" 
                    Text="     "/>
@@ -116,7 +116,7 @@
                    Text="    "/>
 
         <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="MeUmy MC" EventType="打开网页" EventData="https://meumymc.online" ToolTip="点击打开 MeUmy MC官网" />
+                   Text="点我跳转MeUmy MC官网" EventType="打开网页" EventData="https://meumymc.online" ToolTip="点击打开 MeUmy MC官网" />
 
         <TextBlock Margin="0,0,0,-2" 
                    Text="    "/>
@@ -128,7 +128,7 @@
                    Text="    "/>
 
         <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="生存服IP" EventType="复制文本" EventData="play.meumymc.live" ToolTip="点击复制生存服IP" />
+                   Text="点击复制生存服IP" EventType="复制文本" EventData="play.meumymc.live" ToolTip="点击复制生存服IP" />
 
     </StackPanel>
 </local:MyCard>
@@ -157,7 +157,7 @@
                    Text="刷新主页" EventType="刷新主页" ToolTip="点击刷新主页（虽然没啥用）"/>
 
             <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight" HorizontalAlignment="Center" Padding="13,0,13,0"
-                   Text="作者信息" EventType="弹出窗口" EventData="这是标题|启动器主题BY：bilibili@长歌天幽。\n \n了解详细信息请到QQ群：562456559\n（用了四个小时就搓出来的主题）" />
+                   Text="作者信息" EventType="弹出窗口" EventData="作者详细|启动器主题BY：bilibili@长歌天幽。\n \n了解详细信息请到QQ群：562456559\n（用了四个小时就搓出来的主题）" />
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
