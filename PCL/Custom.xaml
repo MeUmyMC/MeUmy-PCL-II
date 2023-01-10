@@ -8,24 +8,46 @@
         <TextBlock Margin="0,0,0,-2" 
                    Text="MeUmy大草原 ！ "/>
 
-        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+    <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="光能雪狼 - 呜米 : "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="光能雪狼 - 呜米 : "/>
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="     "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="————————"/>
 
-        <Image Height="130" Width="230" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/face/c234aef24feb06c960e190fa7ebf792adbbb163d.jpg@240w_240h_1c_1s.webp" />
+    <TextBlock Margin="0,0,0,-2" 
+                Text="kria☆kria☆~"/>
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="     "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="     "/>
 
-        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                Text="呜米主页" EventType="打开网页" EventData="https://space.bilibili.com/617459493/?spm_id_from=333.999.0.0" ToolTip="点击打开 呜米主页" /> 
+    <Image Height="130" Width="230" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/face/c234aef24feb06c960e190fa7ebf792adbbb163d.jpg@240w_240h_1c_1s.webp" />
 
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"
-                Text="呜米喵~想要成为大家的~爱抖露~努力进步，在舞台上kriakria~" />
+    <TextBlock Margin="0,0,0,-2" 
+                Text="     "/>
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="呜米主页" EventType="打开网页" EventData="https://space.bilibili.com/617459493" ToolTip="点击打开 呜米主页" />
+
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="网易云主页" EventType="打开网页" EventData="https://music.163.com/#/user/home?id=1306304320" ToolTip="点击打开 网易云主页" />
+    </StackPanel>
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="微博主页" EventType="打开网页" EventData="https://weibo.com/u/7079069131" ToolTip="点击打开 微博主页" />
+
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                Text="微博超话" EventType="打开网页" EventData="https://weibo.com/p/100808a7b30287a73195f62125b13460f6331a" ToolTip="点击打开 微博超话主页" />
+    </StackPanel>
+
+    <TextBlock Margin="0,0,0,-2" 
+                Text="     "/>
+
+    <local:MyHint Margin="0,8,0,2" IsWarn="False"
+            Text="呜米喵~想要成为大家的~爱抖露~努力进步，在舞台上kria☆kria☆~" />
 
     </StackPanel>
 </local:MyCard>
@@ -38,24 +60,46 @@
         <TextBlock Margin="0,0,0,-2" 
                    Text="Meumy大草原 ！ "/>
 
-        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+    <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="电击系小羊 - 咩栗 : "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="电击小羊 - 咩栗 : "/>
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="     "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="————————"/>
 
-        <Image Height="130" Width="230" HorizontalAlignment="Center" Source="https://i2.hdslb.com/bfs/face/1b74803484cfc056d0aa50b1a52440af7804f225.jpg@240w_240h_1c_1s.webp" /> 
+    <TextBlock Margin="0,0,0,-2" 
+                Text="⚡全力闪光⚡！"/>
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="     "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="     "/>
 
-        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="咩栗主页" EventType="打开网页" EventData="https://space.bilibili.com/745493/?spm_id_from=333.999.0.0" ToolTip="点击打开 咩栗主页" /> 
+    <Image Height="130" Width="230" HorizontalAlignment="Center" Source="https://i2.hdslb.com/bfs/face/1b74803484cfc056d0aa50b1a52440af7804f225.jpg@240w_240h_1c_1s.webp" /> 
 
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"
-                Text="我被踢出群啦！！！" />
+    <TextBlock Margin="0,0,0,-2" 
+                Text="     "/>
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="咩栗主页" EventType="打开网页" EventData="https://space.bilibili.com/745493/" ToolTip="点击打开 咩栗主页" />
+
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="网易云主页" EventType="打开网页" EventData="https://music.163.com/#/user/home?id=1356709812" ToolTip="点击打开 网易云主页" />
+    </StackPanel>
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="微博主页" EventType="打开网页" EventData="https://weibo.com/u/7080286241" ToolTip="点击打开 微博主页" />
+
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+            Text="微博超话" EventType="打开网页" EventData="https://weibo.com/p/100808a3c6c5f519e8582ba3c6eb56e3765b5e" ToolTip="点击打开 微博超话主页" />
+    </StackPanel>
+
+    <TextBlock Margin="0,0,0,-2" 
+                Text="     "/>
+
+    <local:MyHint Margin="0,8,0,2" IsWarn="False"
+            Text="我被踢出群啦！！！" />
 
     </StackPanel>
 </local:MyCard>
@@ -66,32 +110,32 @@
 <local:MyCard Margin="130,0,0,0" Title="MeUmy草原平行时空" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="20,40,20,25">
 
-        <Image Height="45" Width="220" HorizontalAlignment="Left" Source="https://meumy.club/img/head_title.46f64522.png" /> 
+    <Image Height="45" Width="220" HorizontalAlignment="Left" Source="https://meumy.club/img/head_title.46f64522.png" /> 
 
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="    "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="    "/>
 
-        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="MeUmy草原平行时空" EventType="打开网页" EventData="https://meumy.club" ToolTip="点击打开 MeUmy草原平行时空" />
+    <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                Text="MeUmy草原平行时空" EventType="打开网页" EventData="https://meumy.club" ToolTip="点击打开 MeUmy草原平行时空" />
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="    "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="    "/>
 
-        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="MeUmy草原自动路灯" EventType="打开网页" EventData="https://lamp.meumy.club" ToolTip="点击打开 MeUmy草原自动路灯" />
+    <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                Text="MeUmy草原自动路灯" EventType="打开网页" EventData="https://lamp.meumy.club" ToolTip="点击打开 MeUmy草原自动路灯" />
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="    "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="    "/>
 
-        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="MeUmy的录音棚" EventType="打开网页" EventData="https://song.meumy.club/" ToolTip="点击打开 MeUmy的录音棚" />
+    <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                Text="MeUmy的录音棚" EventType="打开网页" EventData="https://song.meumy.club/" ToolTip="点击打开 MeUmy的录音棚" />
 
-        <TextBlock Margin="0,0,0,-2" 
-                   Text="    "/>
+    <TextBlock Margin="0,0,0,-2" 
+                Text="    "/>
 
-        <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="MeUmy的棉花糖" EventType="打开网页" EventData="https://mht.meumy.club/" ToolTip="点击打开 MeUmy的棉花糖" />
+    <local:MyButton Width="150" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                Text="MeUmy的棉花糖" EventType="打开网页" EventData="https://mht.meumy.club/" ToolTip="点击打开 MeUmy的棉花糖" />
 
     </StackPanel>
 </local:MyCard>
@@ -104,31 +148,31 @@
         <TextBlock Margin="0,0,0,-2" TextWrapping="0"
                    Text="一个MeUmy主题的Minecraft服务器  服务器目前已开放，如有意见欢迎提出 "/>
 
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+    <local:MyHint Margin="0,8,0,2" IsWarn="False"
                    Text="QQ群：562456559" />
 
-        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+    <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
 
-        <TextBlock Margin="0,0,0,-2" 
+    <TextBlock Margin="0,0,0,-2" 
                    Text="MeUmy MC官网 : "/>
 
-        <TextBlock Margin="0,0,0,-2" 
+    <TextBlock Margin="0,0,0,-2" 
                    Text="    "/>
 
-        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="点我跳转MeUmy MC官网" EventType="打开网页" EventData="https://meumymc.online" ToolTip="点击打开 MeUmy MC官网" />
+    <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="MeUmy MC" EventType="打开网页" EventData="https://meumymc.online" ToolTip="点击打开 MeUmy MC官网" />
 
-        <TextBlock Margin="0,0,0,-2" 
+    <TextBlock Margin="0,0,0,-2" 
                    Text="    "/>
 
-        <TextBlock Margin="0,0,0,-2" 
+    <TextBlock Margin="0,0,0,-2" 
                    Text="MeUmy MC服务器IP : "/>
 
-        <TextBlock Margin="0,0,0,-2" 
+    <TextBlock Margin="0,0,0,-2" 
                    Text="    "/>
 
-        <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="点击复制生存服IP" EventType="复制文本" EventData="play.meumymc.live" ToolTip="点击复制生存服IP" />
+    <local:MyButton Width="130" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="生存服IP" EventType="复制文本" EventData="play.meumymc.live" ToolTip="点击复制生存服IP" />
 
     </StackPanel>
 </local:MyCard>
@@ -141,41 +185,44 @@
         <TextBlock Margin="0,0,0,-2" TextWrapping="0"
                    Text="欢迎使用 MeUmy MC 定制主题  : ) "/>
 
-        <TextBlock Margin="0,0,0,-2" TextWrapping="0"
+    <TextBlock Margin="0,0,0,-2" TextWrapping="0"
                    Text=" "/>                   
 
-        <TextBlock Margin="0,0,0,-2" TextWrapping="0"
+    <TextBlock Margin="0,0,0,-2" TextWrapping="0"
                    Text="主题由：bilibili@长歌天幽_Count 制作"/>
 
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"
-                   Text="版本号：1.2 - Gold" />
+    <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                   Text="当前版本：1.3 - Gold" />
 
-        <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
+    <Image Height="65" Width="120" HorizontalAlignment="Left" Source="https://meumymc.online/pictures/logo.png" /> 
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="刷新主页" EventType="刷新主页" ToolTip="点击刷新主页（虽然没啥用）"/>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                Text="刷新主页" EventType="刷新主页" ToolTip="点击 刷新主页（虽然没啥用）"/>
 
-            <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight" HorizontalAlignment="Center" Padding="13,0,13,0"
-                   Text="作者信息" EventType="弹出窗口" EventData="作者详细|启动器主题BY：bilibili@长歌天幽。\n \n了解详细信息请到QQ群：562456559\n（用了四个小时就搓出来的主题）" />
-        </StackPanel>
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight" HorizontalAlignment="Center" Padding="13,0,13,0"
+                Text="作者信息" EventType="弹出窗口" EventData="这是标题|启动器主题BY：bilibili@长歌天幽。\n \n了解详细信息请到QQ群：562456559\n（用了四个小时就搓出来的主题）" />
+    </StackPanel>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Highlight"
-                   Text="启动器日志" EventType="打开文件" EventData="Log1.txt" ToolTip="点击打开 启动器日志"/>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                Text="启动器日志" EventType="打开文件" EventData="Log1.txt" ToolTip="点击打开 启动器日志"/>
 
-            <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight"
-                   Text="自定义主页" EventType="打开文件" EventData="explorer.exe|/select,Custom.xaml" ToolTip="定位自定义主页文件Custom.xaml位置" />
-        </StackPanel>
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                Text="自定义主页" EventType="打开文件" EventData="explorer.exe|/select,Custom.xaml" ToolTip="定位自定义主页文件Custom.xaml位置" />
+    </StackPanel>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Highlight"
-                   Text="背景音乐" EventType="打开文件" EventData="explorer.exe|/select,Musics" ToolTip="定位存放背景音乐的文件夹Musics位置" />
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                Text="背景音乐" EventType="打开文件" EventData="explorer.exe|/select,Musics" ToolTip="定位存放背景音乐的文件夹Musics位置" />
 
-            <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight"
-                   Text="背景图片" EventType="打开文件" EventData="explorer.exe|/select,Pictures" ToolTip="定位存放背景图片的文件夹Pictures位置" />
-        </StackPanel>
+        <local:MyButton Margin="15,7,0,0" Width="100" Height="35" ColorType="Highlight"
+                Text="背景图片" EventType="打开文件" EventData="explorer.exe|/select,Pictures" ToolTip="定位存放背景图片的文件夹Pictures位置" />
+    </StackPanel>
 
+    <local:MyButton Margin="0,7,0,0" Width="100" Height="35" ColorType="Red" HorizontalAlignment="Center" Padding="13,0,13,0"
+                 Text="千万别点" EventType="弹出窗口" EventData="来都来了，那就点个关注吧。| 启动器主题制作：bilibili@长歌天幽_Count \n UID:295955722 
+                                                                  \n ————————\n MeUmyMC企划发起人：bilibili@lby123165 \n UID:422497955 \n  \n (好耶~点个关注吧~)"/>
     </StackPanel>
 </local:MyCard>
 
