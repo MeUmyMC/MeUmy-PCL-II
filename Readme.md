@@ -8,4 +8,4 @@
 
 祝您有个愉快的游戏时光:)
 更新日志:
-1.Wiki (正在咕)
+1.Wiki (正在咕)[Written by LTDove]
